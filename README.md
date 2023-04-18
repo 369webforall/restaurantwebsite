@@ -41,3 +41,21 @@ npm install --save-dev hint@7.x
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 ```
+
+// in root directory
+
+lighthouserc.js
+
+```
+module.exports = {
+  ci: {
+    collect: {
+      staticDistDir: './',
+    },
+    upload: {
+      target: 'temporary-public-storage',
+    },
+  },
+};
+
+```
