@@ -1,0 +1,27 @@
+{
+  "name": "restaurantwebsite",
+  "version": "1.0.0",
+  "description": "responsive restaurant website\r clone -\r git clone link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/369webforall/restaurantwebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/369webforall/restaurantwebsite/issues"
+  },
+  "homepage": "https://github.com/369webforall/restaurantwebsite#readme",
+  "devDependencies": {
+    "hint": "^7.1.8",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
